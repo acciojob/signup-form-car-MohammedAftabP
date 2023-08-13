@@ -13,20 +13,20 @@
 </script>
 	<form method="post">
   <h1>Signup Form Car</h1>
-  <br><label>Name</label><input type="text" required="required" id="name" placeholder="Name">
-  <br><label>email</label><input type="email" required="required" id="email" placeholder="email">
-  <br><label>Male</label><input type="radio" required="required" id="gender_m" value="male">
-  <br><label>female</label><input type="radio" required="required" id="gender_f" value="female">
-  <br> <label>CAR Brands</label><select aria-required="true" id="cars" placeholder="please choose an option">
-	  <option value="">benz</option>
-	  <option>mercedes</option>
-	  <option>volvo</option>
+ <br><label for="name" >Name</label><input type="text" required="required" id="name" placeholder="name">
+  <br><label for="email" >Email</label><input type="email" required="required" id="email" placeholder="email">
+  <br><label for="gender_m">Male</label><input type="radio" required="required" id="gender_m" value="male">
+  <br><label for="gender_f">Female</label><input type="radio" required="required" id="gender_f" value="female">
+  <br> <label for="cars">CAR Brands</label><select aria-required="true" id="cars" placeholder="please choose an option">
+	  <option value="benz">benz</option>
+	  <option value="mercedes">mercedes</option>
+	  <option value="volve">volvo</option>
   </select>
-	<br><label>age</label><input type="number" required="required" id="age" placeholder="Age">
-	<br><label>DOB</label><input type="date" required="required" id="dob" placeholder="">
-	<br><label>phone</label><input type="tel" required="" id="tel" placeholder="xxx-xxx-xxxx">
-    <br><label>Password</label><input type="password" required="required" id="password" placeholder="Password">
-	<br><label>checkbox</label><input type="checkbox" required="required" id="tos" placeholder="Name">
+	<br><label for="age">Age</label><input type="number" required="required" id="age" placeholder="Age">
+	<br><label for="dob">DOB</label><input type="date" required="required" id="dob" placeholder="">
+	<br><label for="tel">phone</label><input type="tel" required="" id="tel" placeholder="xxx-xxx-xxxx">
+    <br><label for="password">Password</label><input type="password" required="required" id="password" placeholder="Password">
+	<br><label for="tos">checkbox</label><input type="checkbox" required="required" id="tos" placeholder="Name">
     <br> <input type="submit">
 	</form>
 </body>
